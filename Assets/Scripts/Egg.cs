@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Egg : MonoBehaviour
 {
+    public int value;
     void OnCollisionEnter(Collision other)
-    {  
+    { 
         if(other.gameObject.tag == "Floor")
         {
             ScoreManager.score--;
@@ -15,7 +16,7 @@ public class Egg : MonoBehaviour
         
         if(other.gameObject.tag == "Player")
         {
-            ScoreManager.score++;
+            ScoreManager.ScoreSet(value);
             Destroy(this.gameObject);
         }
     }    

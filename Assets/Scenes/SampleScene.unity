@@ -1358,8 +1358,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 23.67385, y: 48.799915, z: 14.302605}
-  m_Center: {x: -0.64272404, y: -0.1174736, z: 8.342873}
+  m_Size: {x: 19.33159, y: 42.74147, z: 14.302605}
+  m_Center: {x: -0.012414157, y: 1.2151098, z: 8.342873}
 --- !u!114 &461294623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4262,9 +4262,11 @@ MonoBehaviour:
   - {fileID: 1318069566}
   - {fileID: 1649953709}
   - {fileID: 1413612220}
-  enemyPrefabs:
+  eggPrefabs:
   - {fileID: 8481859204465481217, guid: 33a32c742ec477c41ba91fa3036654f8, type: 3}
   - {fileID: 5561630732370985494, guid: 2e3d353eccb21024f8822d5dd6f704a2, type: 3}
+  bombPrefab: {fileID: 1571171666989283858, guid: 182d1b705efcaa740afdc76d67eacc11, type: 3}
+  heartPrefab: {fileID: 108396188740507637, guid: c6915c4a02b2f2644b68e037522dc414, type: 3}
 --- !u!4 &1636177263
 Transform:
   m_ObjectHideFlags: 0

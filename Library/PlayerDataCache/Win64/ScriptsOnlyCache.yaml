@@ -1,8 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bomb
     - Egg
     - EggSpawner
+    - Heart
     - PlayerMovement
     - Scene_Management
     - ScoreManager
@@ -61,29 +63,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1996}
+      Script: {instanceID: 2000}
     - Class: 114
-      Script: {instanceID: 2282}
+      Script: {instanceID: 2286}
     - Class: 114
-      Script: {instanceID: 2394}
+      Script: {instanceID: 2398}
     - Class: 114
-      Script: {instanceID: 2556}
+      Script: {instanceID: 2560}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2744}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 2826}
+      Script: {instanceID: 2830}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3220}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 3486}
+      Script: {instanceID: 3490}
     - Class: 114
-      Script: {instanceID: 17428}
+      Script: {instanceID: 4102}
+    - Class: 114
+      Script: {instanceID: 21592}
+    - Class: 114
+      Script: {instanceID: 23314}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -303,7 +309,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6f4483d4f9cd6d8ba8f6c860d74fa945
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Egg
@@ -351,7 +357,7 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 2f809f3e57c3d96e9dab84172ac99bfc
+      Hash: c15cb9af325e5c57331ee9245c402ac4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EggSpawner
@@ -525,6 +531,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 066caca0932bbd5f3a35d507bd71a3eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Scene_Management
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -549,10 +561,16 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 066caca0932bbd5f3a35d507bd71a3eb
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Scene_Management
+    className: Bomb
+  - hash:
+      serializedVersion: 2
+      Hash: 6f4483d4f9cd6d8ba8f6c860d74fa945
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Heart
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -28,6 +28,10 @@ public class ScoreManager : MonoBehaviour
             OnGameOver();
             Time.timeScale = 0;
         }
+        if(count>=5)
+        {
+            count=5;
+        }
         if(score<0)
         {
             score=0;
@@ -39,5 +43,10 @@ public class ScoreManager : MonoBehaviour
     {
         gameOver.SetActive(true);
         Debug.Log(gameOver);
+    }
+
+    public static void ScoreSet(int value)
+    {
+        score += value;
     }
 }
